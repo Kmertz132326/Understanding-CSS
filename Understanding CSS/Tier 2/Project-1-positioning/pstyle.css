@@ -1,7 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
 header {
-  background-color: #333;
-  color: white;
-  padding: 1em;
-  position: sticky;
-  top: 0;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+}
+main {
+    padding: 20px;
+    height: 3000px; 
+}
+
+
+p {
+    margin: 400px 20px; 
+    font-size: 24px;
+    background-color: red;
+    position: sticky;
+    padding: 10px;
+}
+.p1 { top: 60px; z-index: 1; }
+.p2 { top: 120px; z-index: 2; }
+.p3 { top: 180px; z-index: 3; }
+.p4 { top: 240px; z-index: 4; }
+.p5 { top: 300px; z-index: 5; }
+.p6 { top: 360px; z-index: 6; } 
+.p7 { top: 420px; z-index: 7; }
+.p8 { top: 480px; z-index: 8; } 
+
+h1 {
+    background-color: blue;
+    color: white;
+    position: sticky;
+    top: 0;
 }

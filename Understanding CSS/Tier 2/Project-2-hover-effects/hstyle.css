@@ -1,13 +1,27 @@
 .magic-btn {
-  background: cornflowerblue;
+  background: rgb(246, 4, 61);
   color: white;
   padding: 10px 20px;
+  border-radius: 10%;
   border: none;
   transition: all 0.3s ease;
+  box-shadow: 10px;  cursor: crosshair;
 }
 
 .magic-btn:hover {
   background: royalblue;
-  transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transform: scale(1.1);
+}
+
+#look {
+  height: 400px;
+  width: 150px;
+  background-color: orange;
+  font-size: 30px;
+  color: black;
+  border: 5px solid purple;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
